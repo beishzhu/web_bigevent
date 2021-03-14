@@ -17,42 +17,28 @@ iframe {
   height: 100%;
 }
 
-.layui-body {
-  overflow: hidden;
-}
-
 a {
   transition: none !important;
 }
 
-.userinfo {
+.userInfo {
   height: 60px;
   line-height: 60px;
   text-align: center;
-  font-size: 12px;
-  user-select: none;
+  border-bottom: 2px solid #282b33;
 }
 
-.layui-side-scroll .userinfo {
-  border-bottom: 1px solid #282b33;
-}
-
-.layui-nav-img {
-  width: 40px;
-  height: 40px;
-}
-
-.text-avatar {
+.test-avatar {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-color: #009688;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  line-height: 40px;
+  line-height: 30px;
   text-align: center;
+  background-color: #009688;
   font-size: 20px;
   color: #fff;
-  position: relative;
-  top: 4px;
   margin-right: 10px;
+  position: relative;
+  top: 3px;
 }
